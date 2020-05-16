@@ -1,6 +1,7 @@
 #include "StateMachine.h"
 #include "State.h"
 
+
 #include <iostream>
 #include <memory>
 
@@ -14,10 +15,31 @@ StateMachine::StateMachine()
 
 void StateMachine::run(unique_ptr<State> state)
 {
+	stateRunning = true;
+	states.push(move(state));
 }
 
 void StateMachine::nextState()
 {
+	if(stateRunning){
+		if (!states.empty()) {
+			states.pop();
+		}
+
+		stateResult = false;
+	}
+
+	if (!states.empty()) {
+		unique_ptr<State> temp = states.top()->nextState();
+
+		if (temp != nullptr) {
+			if (temp->isReplacing()) {
+
+				states.pop();
+
+			}
+		}
+	}
 }
 
 void StateMachine::lastState()

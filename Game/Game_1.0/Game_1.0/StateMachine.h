@@ -31,7 +31,7 @@ public:
 	static unique_ptr<T> buildState(StateMachine& machine, sf::RenderWindow& window, bool replace = true);
 
 private:
-	stack<unique_ptr<State>> state;
+	stack<unique_ptr<State>> states;
 
 	bool stateResult;
 	bool stateRunning;
