@@ -1,0 +1,7 @@
+﻿  Home.cpp
+C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Game_utcso\Home.cpp(132,12): warning C4101: 'yi': unreferenced local variable
+C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Game_utcso\Home.cpp(159,1): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Game_utcso\Home.cpp(164,1): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Game_utcso\Home.cpp(172,1): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Game_utcso\Home.cpp(176,38): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  Game_utcso.vcxproj -> C:\Proba_GIT\Game_c_code\Utcso\Game_utcso\Debug\Game_utcso.exe

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1589637876 source:c:\proba_git\game_c_code\game2.0\main.cpp
+	<graphics.h>
+	<fstream>
+	<iostream>
+	<math.h>
+	<conio.h>
+
+1589648012 source:c:\proba_git\game_c_code\game2.0\main1.cpp
+	<graphics.h>
+	<fstream>
+	<iostream>
+	<math.h>
+	<conio.h>
+

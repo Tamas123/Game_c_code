@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589665976 source:c:\proba_git\game_c_code\nemmegy\main.cpp
+	<graphics.h>
+	<fstream>
+	<iostream>
+	<math.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+
