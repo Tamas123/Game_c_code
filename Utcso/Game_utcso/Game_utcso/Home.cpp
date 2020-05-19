@@ -28,7 +28,7 @@ void Printhome()
 {
 	printf("\n \n     Welcome soldier! \n \n \n \n");
 	Sleep(1000);
-	printf(" This game is creati by MTL \n \n \n \n");
+	printf(" This game is created by MTL \n \n \n \n");
 	Sleep(1000);
 	printf("        Good luck. \n \n \n \n");
 	Sleep(1000);
@@ -50,7 +50,7 @@ void Printhometeteje() {
 //srand(time(NULL));
 
 
-//extern int enemySpeed;
+extern int enemySpeed;
 
 void createWorld()
 {
