@@ -22,31 +22,37 @@ char enemy = 'M';
 char enemyShielded = 'O';
 int drop = 0;
 int i = 1;
+//char direction = 'l';
+//char keyPress;
 int currentEnemies;
 int enemySpeed;
 
 int main() {
 	
-	//srand(time(NULL));
+	srand(time(NULL));
 
 
 	Printhome();
 	createWorld();
 	
-	PrintGame();
+	
 
 	 currentEnemies = totalEnamies;
+	 world[SIZEY - 1][SIZEX / 2] = player;
 
 	while (currentEnemies > 0 && victory) {
 
+		
 		laserReady++;
+		PrintGame();
 
 		leserGo();
 		UpdateEnemyDirection();
 		UpdateBoard();
+		controlPlayer();
 	}
 
-	controlPlayer();
+	
 	endGame();
 
 

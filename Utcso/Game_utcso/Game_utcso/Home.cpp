@@ -161,7 +161,7 @@ void leserGo()
 				world[y][x] = ' ';
 			}
 			else if (i % 2 == 0 && world[y][x] == enemyLaser
-				&& (world[y + 1][x] == enemy | world[y + 1][x] == enemyShielded)) {
+				&& (world[y + 1][x] == enemy || world[y + 1][x] == enemyShielded)) {
 				world[y][x] = ' ';
 			}
 		}
@@ -212,8 +212,8 @@ void leserGo()
 			else if (world[y][x] == playerLaser
 				&& world[y - 1][x] != enemyLaser) {
 				world[y][x] = ' ';
-				//world[y - 1][x] = playerLaser;
-				world[SIZEY - 1][SIZEX / 2] = player;
+				world[y - 1][x] = playerLaser;
+				
 			}
 		}
 	}

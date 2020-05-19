@@ -7,9 +7,9 @@ void Printhome();
 void createWorld();
 void Printhometeteje();
 
+void leserGo();
 //int totalEnemis(int totalEnemies);
 void PrintGame();
-void leserGo();
 void UpdateEnemyDirection();
 void UpdateBoard();
 void controlPlayer();
